@@ -1,0 +1,1 @@
+export type ComponentType = | 'button' | 'heading' | 'paragraph' | 'card' | 'section' | 'image' | 'container' | 'divider'`n`nexport interface Component { id: string; type: ComponentType; props: Record<string, any>; children?: Component[] }`n`nexport interface Project { id: string; name: string; components: Component[]; createdAt: string; updatedAt: string }
